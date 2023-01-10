@@ -42,6 +42,10 @@
     ]
   },
   "devDependencies": {
-    "axios-mock-server": "^0.19.1"
+    "axios-mock-server": "^0.19.1",
+    "msw": "^0.49.2"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
